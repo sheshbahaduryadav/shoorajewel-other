@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@300&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cta {
+  /* background-color: rgb(249, 115, 22); */
+  background-color: #8e3e63;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.background {
+  /* background-color: rgba(255, 136, 0, 0.24); */
+  background-image: linear-gradient(
+    130deg,
+    #f4d77e 20%,
+    rgb(255, 255, 255) 80%
+  );
+}
+.background-rectangle {
+  background-color: #8e3e63;
+}
+.text-color {
+  color: #8e3e63;
+}
+
+.nav-strip {
+  background-color: #8e3e63;
+}
