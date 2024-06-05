@@ -9,7 +9,7 @@ import img5 from '../../assets/New folder/12.jpg'
 import { FaStar } from "react-icons/fa6";
 import { VscSettings } from "react-icons/vsc";
 import { TbGridDots } from "react-icons/tb";
-import Products from '../Products/Products';
+import Products from '../New Arrival/NewArrival';
 
 function Catagory() {
 

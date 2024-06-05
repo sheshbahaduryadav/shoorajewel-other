@@ -4,7 +4,7 @@ import img18 from '../../assets/New folder/18.jpg'
 import img19 from '../../assets/New folder/19.jpg'
 import img20 from '../../assets/New folder/20.jpg'
 import img22 from '../../assets/New folder/22.jpg'
-import Products from '../Products/Products'
+import Products from '../New Arrival/NewArrival'
 
 
 

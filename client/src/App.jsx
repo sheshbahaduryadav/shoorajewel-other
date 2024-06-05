@@ -44,7 +44,6 @@ const App = () => {
           <Route path="/catagory" element={<Catagory />} />
           <Route path="/checkOut" element={<CheckOut />} />
         </Routes>
-        <PreFooter />
         <Footer />
       </>
     </Router>

@@ -5,7 +5,7 @@ function NewHero() {
     return (
         <div className=' w-full'>
             <div className="relative flex flex-col  items-center  w-full  lg:flex-row   bg-cover bg-center bg-no-repeat">
-                
+
                 <div className="w-full lg:h-auto">
                     <img className=" w-full " src={img1} alt="Winding mountain road" />
                 </div>
@@ -15,11 +15,14 @@ function NewHero() {
                         <p className='py-4'>New Arrival</p>
                         <p className="font-medium uppercase text-orange-500 text-2xl sm:text-2xl md:text-4xl  lg:text-4xl xl:text-6xl">Discover Our New Collection</p>
                         <p className="mt-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
                         </p>
                         <div className="mt-8">
-                            <a href="#"  className="inline-block w-full text-center text-lg font-medium cta border-solid border-2  py-4 px-10 text-white hover:shadow-md md:w-48">
+                            <a href="#" className="inline-block w-full text-center text-lg font-medium cta   py-4 px-10 text-white hover:shadow-md md:w-48">
                                 Buy Now </a>
+                            <p className="justify-center mt-1 ml-6">
+                                <p className="h-[2px] nav-strip w-44"></p>
+                            </p>
                         </div>
                     </div>
                 </div>

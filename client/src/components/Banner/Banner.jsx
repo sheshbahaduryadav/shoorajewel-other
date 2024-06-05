@@ -1,20 +1,21 @@
 import React from "react";
-import BannerImg from "../../assets/women/women2.jpg";
+import BannerImg from "../../assets/background-img.jpg";
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
 
 const Banner = () => {
   return (
-    <div className="min-h-[550px] background flex justify-center items-center py-12 sm:py-0">
+    <div className="min-h-[550px] mt-24 flex justify-center items-center py-12 sm:py-0">
       <div className="container">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 items-center">
           {/* image section */}
-          <div data-aos="zoom-in">
+          <div data-aos="zoom-in" className="overflow-hidden  ">
+            {/* drop-shadow-[-6px_8px_12px_RGB(141,101,80)] */}
             <img
               src={BannerImg}
               alt=""
-              className="max-w-[400px] h-[350px] w-full mx-auto drop-shadow-[-10px_10px_12px_rgba(249,115,22,0.5)] object-cover"
+              className="max-w-[600px] hover:scale-110 duration-700 transition-all cursor-pointer h-[500px] w-full mx-auto object-cover"
             />
           </div>
 
@@ -32,19 +33,19 @@ const Banner = () => {
             </p>
             <div className="flex flex-col gap-4">
               <div data-aos="fade-up" className="flex items-center gap-4">
-                <GrSecure className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-400" />
+                <GrSecure className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 bg-red-100" />
                 <p>Quality Products</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
-                <IoFastFood className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 dark:bg-orange-400" />
+                <IoFastFood className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 " />
                 <p>Fast Delivery</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
-                <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-100 dark:bg-green-400" />
+                <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-100 " />
                 <p>Easy Payment method</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
-                <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100 dark:bg-yellow-400" />
+                <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100 " />
                 <p>Get Offers</p>
               </div>
             </div>

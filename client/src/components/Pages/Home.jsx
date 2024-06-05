@@ -1,16 +1,18 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar';
 import NewHero from '../Hero/NewHero';
-import TopProducts from '../TopProducts/TopProducts';
+import TopProducts from '../Category/CategoryProduct';
 import Subscribe from '../Subscribe/Subscribe';
-import Products from '../Products/Products';
 import Banner from '../Banner/Banner';
-import Hero from '../Hero/Hero';
 import Testimonials from '../Testimonials/Testimonials';
 import Footer from '../Footer/Footer';
 import Popup from '../Popup/Popup';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import NewArrival from '../New Arrival/NewArrival';
+import MensCategory from '../ShopByGender/ShopByGender';
+import PreFooter from './PreFooter';
+import FeaturedProduct from '../FeaturedProduct/FeaturedProduct';
 
 function Home() {
 
@@ -35,13 +37,15 @@ function Home() {
 
             <NewHero />
             <TopProducts handleOrderPopup={handleOrderPopup} />
-            <Products />
+            <NewArrival />
             <Banner />
-            <Hero handleOrderPopup={handleOrderPopup} />
+            <MensCategory handleOrderPopup={handleOrderPopup} />
+            <FeaturedProduct />
             <Testimonials />
-
             <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
+            <PreFooter />
             <Subscribe />
+
         </div>
     )
 }

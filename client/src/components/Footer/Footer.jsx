@@ -1,5 +1,5 @@
 import React from "react";
-import footerLogo from "../../assets/logo.png";
+import footerLogo from "../../assets/rohit.png";
 import Banner from "../../assets/website/footer-pattern.jpg";
 import {
   FaFacebook,
@@ -55,30 +55,45 @@ const FooterLinks1 = [
 
 const Footer = () => {
   return (
-    <div className="mt-8 bg-violet-900 pt-9">
+    <div className="mt-8 bg-violet-900 pt-9 footer text-white">
       <div className="mx-auto w-full max-w-[1166px] px-4 xl:px-0">
         <div className="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
           <div className="md:w-[316px]">
             <p className="text-[18px] font-medium ">
               <h1 className=" font-extrabold">
-                <span className="text-rose-600">YOUR</span>LOGO
+                <img src={footerLogo} alt="" />
+                {/* <span className="text-rose-600">YOUR</span>LOGO */}
               </h1>
             </p>
             <p className="mt-[18px] text-[15px] font-normal /[80%]">Lorem ipsum dolor sit amet consectetur adipisicing
               elit. Eos, fugit non. Incidunt dolorum adipisci, tempore asperiores nemo odio facere officiis enim animi
               placeat eaque nesciunt alias beatae id, at dicta.</p>
-            <div className="mt-[18px] flex gap-4">
-              <a className="hover:scale-110" target="_blank"
-                href="#"><img alt="facebook icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1" src="https://www.englishyaari.com/img/facebook.svg" /></a><a
-                  className="hover:scale-110" target="_blank"
-                  href="/"><img alt="linkdin icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1" src="https://www.englishyaari.com/img/linkdin.svg" /></a><a
-                    className="hover:scale-110" target="_blank"
-                    href="/"><img alt="instagram icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1" src="https://www.englishyaari.com/img/instagram1.svg" /></a><a
-                      className="hover:scale-110" target="_blank"
-                      href=""><img alt="twitter icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1" src="https://www.englishyaari.com/img/twitter.svg" /></a><a
-                        className="hover:scale-110" target="_blank"
-                        href="https://www.youtube.com/"><img alt="youtube icon" loading="lazy" width="36" height="36" decoding="async" data-nimg="1" src="https://www.englishyaari.com/img/youtube.svg" /></a>
+          </div>
+          <div className="mt-6 flex w-full flex-col justify-between  sm:flex-row md:mt-0 md:max-w-[341px]">
+            <div className="">
+              <p className="text-deutziawhite font-inter text-[18px] font-medium leading-normal">Pages</p>
+              <ul>
+                <li className="mt-[15px]"><a
+                  className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                  href="/">Home</a></li>
+                <li className="mt-[15px]"><a
+                  className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                  href="/our-tutors">News</a></li>
+                <li className="mt-[15px]"><a
+                  className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                  href="/become-a-tutor">Contact</a></li>
+                <li className="mt-[15px]"><a
+                  className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                  href="/plans-and-pricing">Plans and pricing</a></li>
+                <li className="mt-[15px]"><a
+                  className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                  href="/terms-and-conditions">Terms and conditions</a></li>
+                <li className="mt-[15px]"><a
+                  className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                  href="/privacy-policy">Privcay policy</a></li>
+              </ul>
             </div>
+
           </div>
           <div className="md:w-[316px]">
             <div className="mt-[23px] flex">
@@ -122,51 +137,19 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="mt-6 flex w-full flex-col justify-between  sm:flex-row md:mt-0 md:max-w-[341px]">
-            <div className="">
-              <p className="text-deutziawhite font-inter text-[18px] font-medium leading-normal">Pages</p>
-              <ul>
-                <li className="mt-[15px]"><a
-                  className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                  href="/">Home</a></li>
-                <li className="mt-[15px]"><a
-                  className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                  href="/our-tutors">News</a></li>
-                <li className="mt-[15px]"><a
-                  className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                  href="/become-a-tutor">Contact</a></li>
-                <li className="mt-[15px]"><a
-                  className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                  href="/plans-and-pricing">Plans and pricing</a></li>
-                <li className="mt-[15px]"><a
-                  className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                  href="/terms-and-conditions">Terms and conditions</a></li>
-                <li className="mt-[15px]"><a
-                  className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                  href="/privacy-policy">Privcay policy</a></li>
-              </ul>
-            </div>
-            <div className="mt-6 flex flex-col gap-4 sm:mt-0">
-              <p className="text-deutziawhite font-inter text-[18px] font-medium">Download the app</p>
-              <div className="flex gap-4 sm:flex-col">
-                <a target="_blank"
-                  href="#"><img alt="facebook icon" loading="lazy" width="168" height="50" decoding="async" data-nimg="1" src="https://www.englishyaari.com/img/google-store.svg" /></a><a
-                    target="_blank"
-                    href="#"><img alt="facebook icon" loading="lazy" width="168" height="50" decoding="async" data-nimg="1" src="https://www.englishyaari.com/img/apple-store.svg" /></a>
-              </div>
-            </div>
-          </div>
+
         </div>
         <hr className="mt-[30px] " />
-        <div className="flex items-center justify-center pb-8 pt-[9px] md:py-8">
-          <p className="text-[10px] font-normal  md:text-[12px]">
-            © Copyright
-            {/* */}2024
-            {/* */}, All Rights Reserved by YOUR WEBSITES. PVT. LTD
-          </p>
-        </div>
+
       </div>
-    </div>
+      <div className="flex items-center sub-footer justify-center pb-8 pt-[9px] md:py-8">
+        <p className="text-[10px] font-normal  md:text-[12px]">
+          © Copyright
+          {/* */}2024
+          {/* */}, All Rights Reserved by YOUR WEBSITES. PVT. LTD
+        </p>
+      </div>
+    </div >
   );
 };
 

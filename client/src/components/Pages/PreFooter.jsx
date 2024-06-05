@@ -8,8 +8,8 @@ function PreFooter() {
     return (
         <div>
 
-            <div className="grid grid-cols-1 gap-4 px-4 mt-8 sm:grid-cols-4 sm:px-8 bg-pink-100 p-10">
-                <div className="flex items-center  overflow-hidden ">
+            <div className="grid grid-cols-1 gap-4 px-4 mt-8 sm:grid-cols-4 justify-center sm:px-8  p-10">
+                <div className="flex items-center justify-center overflow-hidden ">
                     <div className="">
                         <img src={img13} />
                     </div>
