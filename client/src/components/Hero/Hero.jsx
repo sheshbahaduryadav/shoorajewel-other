@@ -51,7 +51,7 @@ const Hero = ({ handleOrderPopup }) => {
   return (
 
     <div>
-      <div> 
+      <div>
         <div className=" justify-center text-center">
           <p className="text-gray-700">
             Share your setup with

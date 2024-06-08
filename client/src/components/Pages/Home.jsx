@@ -13,6 +13,8 @@ import NewArrival from '../New Arrival/NewArrival';
 import MensCategory from '../ShopByGender/ShopByGender';
 import PreFooter from './PreFooter';
 import FeaturedProduct from '../FeaturedProduct/FeaturedProduct';
+import EssentialSummerCollection from '../EssentialSummerCollection/EssentialSummerCollection';
+import { GallerySection } from '../Gallery/GallerySection';
 
 function Home() {
 
@@ -34,15 +36,16 @@ function Home() {
     return (
         <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
             {/* <MegaMenuWithPlacement /> */}
-
             <NewHero />
             <TopProducts handleOrderPopup={handleOrderPopup} />
             <NewArrival />
             <Banner />
             <MensCategory handleOrderPopup={handleOrderPopup} />
+            <EssentialSummerCollection />
             <FeaturedProduct />
             <Testimonials />
             <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
+            <GallerySection />
             <PreFooter />
             <Subscribe />
 

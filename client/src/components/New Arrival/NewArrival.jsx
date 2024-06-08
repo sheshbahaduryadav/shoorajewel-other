@@ -3,7 +3,7 @@ import Img1 from "../../assets/category-img/Tamsin Bracelet.webp";
 import Img2 from "../../assets/category-img/Elle Ring.webp";
 import Img3 from "../../assets/category-img/ring.webp";
 import Img4 from "../../assets/category-img/W10226-Y-1_480x.webp";
-import { FaStar } from "react-icons/fa6";
+import { FaRegHeart, FaStar } from "react-icons/fa6";
 
 
 const NewArrival = () => {
@@ -51,7 +51,7 @@ const NewArrival = () => {
 
 
   return (
-    <div className="mt-20 mb-12 bg-[#f5edd3] py-10">
+    <div className="mt-20 mb-12 card-background py-10">
       <div className="container">
         {/* Header section */}
         <div className="text-center  text-color font-medium text-4xl pb-10">
@@ -76,6 +76,8 @@ const NewArrival = () => {
                   alt=""
                   className="h-[220px] w-[300px] object-cover "
                 />
+                <div className="absolute top-0 right-3 z-[999] cta rounded-full p-2 cursor-pointer"><FaRegHeart className="text-white" /></div>
+
                 <div className="px-2 p-2">
                   <p className="font-semibold">{data.title}</p>
                   <p className="text-sm text-gray-600">Color : {data.color}</p>

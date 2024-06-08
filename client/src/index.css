@@ -1,11 +1,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@300&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --sixtypx: 60px;
+  --thirtysixpx: 36px;
+  --twentyfourpx: 24px;
+  --twentypx: 20px;
+  --sixteenpx: 16px;
+  --fourteenpx: 14px;
+  --twelvepx: 12px;
+}
+
+::-webkit-scrollbar {
+  /* background-color: #8e3e63; */
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #419197;
+  border-radius: 40px;
+}
+html {
+  scroll-behavior: smooth;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-text-family {
+  font-family: "Corben", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: var(--sixtypx);
+  font-weight: 600;
+  line-height: 60px;
+}
+
+h2 {
+  font-size: var(--thirtysixpx);
+  font-weight: 600;
+}
+
+h3 {
+  font-size: var(--twentyfourpx);
+  /* font-weight: 500; */
+}
+
+h4 {
+  font-size: var(--twentypx);
+}
+h5 {
+  font-size: var(--sixteenpx);
+}
+
+h6 {
+  font-size: var(--fourteenpx);
+}
+
+p {
+  font-size: var(--sixteenpx);
+  font-weight: 300;
+  line-height: 24px;
+}
+
 .cta {
   /* background-color: rgb(249, 115, 22); */
-  background-color: #8e3e63;
+  background-color: #419197;
+}
+.cta:hover {
+  /* background-color: rgb(249, 115, 22); */
+  background-color: #12486b;
 }
 
 body {
@@ -17,23 +84,34 @@ body {
   /* background-color: rgba(255, 136, 0, 0.24); */
   background-image: linear-gradient(
     130deg,
-    #f4d77e 20%,
+    #12486b 20%,
     rgb(255, 255, 255) 80%
   );
 }
+.banner-card {
+  background: rgb(0, 0, 0, 0.4);
+}
 .background-rectangle {
-  background-color: #8e3e63;
+  background-color: #12486b;
+}
+.testimonial {
+  /* background-color: rgba(255, 136, 0, 0.24); */
+  background: #f3f2f2;
 }
 .text-color {
-  color: #8e3e63;
+  color: #12486b;
 }
 
 .nav-strip {
-  background-color: #8e3e63;
+  background-color: #12486b;
 }
 .footer {
-  background-color: #a1a1a1;
+  background-color: #419197;
 }
 .sub-footer {
-  background-color: #727272;
+  background-color: #12486b;
+}
+
+.card-background {
+  background-color: #f3f2f2;
 }

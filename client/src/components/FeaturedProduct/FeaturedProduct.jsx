@@ -3,7 +3,7 @@ import Img1 from "../../assets/category-img/Tamsin Bracelet.webp";
 import Img2 from "../../assets/category-img/Elle Ring.webp";
 import Img3 from "../../assets/category-img/ring.webp";
 import Img4 from "../../assets/category-img/W10226-Y-1_480x.webp";
-import { FaStar } from "react-icons/fa6";
+import { FaRegHeart, FaStar } from "react-icons/fa6";
 
 
 const FeaturedProduct = () => {
@@ -11,7 +11,7 @@ const FeaturedProduct = () => {
     {
       id: 1,
       img: Img1,
-      title: "Women Ethnic",
+      title: "Twinkling Stars Gold and Diamond Stud Earrings",
       rating: 5.0,
       color: "white",
       aosDelay: "0",
@@ -20,7 +20,7 @@ const FeaturedProduct = () => {
     {
       id: 2,
       img: Img2,
-      title: "Women western",
+      title: "Sophisticated Dainty Diamond Drop Earrings",
       rating: 4.5,
       color: "Red",
       aosDelay: "200",
@@ -29,7 +29,7 @@ const FeaturedProduct = () => {
     {
       id: 3,
       img: Img3,
-      title: "Goggles",
+      title: "1 gram 24 Karat Gold Coin",
       rating: 4.7,
       color: "brown",
       aosDelay: "400",
@@ -38,7 +38,7 @@ const FeaturedProduct = () => {
     {
       id: 4,
       img: Img4,
-      title: "Printed T-Shirt",
+      title: "Geometric Dangle Drop Earrings",
       rating: 4.4,
       color: "Yellow",
       aosDelay: "600",
@@ -47,7 +47,7 @@ const FeaturedProduct = () => {
     {
       id: 4,
       img: Img4,
-      title: "Printed T-Shirt",
+      title: "Minimal Modern Bracelet",
       rating: 4.4,
       color: "Yellow",
       aosDelay: "600",
@@ -69,7 +69,7 @@ const FeaturedProduct = () => {
 
 
   return (
-    <div className="mt-20 mb-12 bg-[#f5edd3] py-10">
+    <div className="mt-20 mb-12 card-background py-10">
       <div className="container">
         {/* Header section */}
         <div className="text-center  text-color font-medium text-4xl pb-10">
@@ -87,32 +87,21 @@ const FeaturedProduct = () => {
                 data-aos="fade-up"
                 data-aos-delay={data.aosDelay}
                 key={data.id}
-                className="space-y-3 bg-gray-100 justify-center text-center"
+                className="space-y-3 bg-gray-100 overflow-hidden cursor-pointer justify-center"
               >
                 <img
                   src={data.img}
                   alt=""
-                  className="h-[220px] w-[300px] object-cover "
+                  className="h-[220px] hover:scale-110 duration-700 transition-all w-[300px] object-cover "
                 />
-                <div className="px-2 p-2">
-                  <p className="font-semibold">{data.title}</p>
-                  <p className="text-sm text-gray-600">Color : {data.color}</p>
-                  <p className="">Price ₹ {data.price}</p>
-
+                <div className="absolute top-0 right-3 z-[999] cta rounded-full p-2"><FaRegHeart className="text-white" /></div>
+                <div className="px-2 p-2 pb-5 z-[99]">
+                  <p className="font-medium">{data.title.length > 25 ? <span>{data.title.slice(0, 25)}...</span> : <span>{data.title}</span>}</p>
+                  {/* <p className="text-sm text-gray-600">Color : {data.color}</p> */}
                 </div>
-
-                {/* <button className=" border justify-center   text-center w-full p-2">
-                  Buy Now
-
-                </button> */}
               </div>
             ))}
           </div>
-          {/*  Show More button */}
-          {/* <div className="mt-8 flex justify-center text-center">
-            <a href="#" className="inline-block w-full text-center text-lg font-medium cta border-solid border-2  py-4 px-10 text-white hover:shadow-md md:w-48">
-              Show More</a>
-          </div> */}
 
         </div>
       </div>

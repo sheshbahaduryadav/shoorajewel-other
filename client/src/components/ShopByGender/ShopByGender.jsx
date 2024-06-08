@@ -4,7 +4,7 @@ import Image2 from "../../assets/Mens-Category/BISK0368S01-VIDEO-V1-72705.mp4";
 import Image3 from "../../assets/Mens-Category/BISP0096R06-VIDEO-726.mp4";
 import Image4 from "../../assets/Mens-Category/BISP0369B07-VIDEO-31895.mp4";
 import Slider from "react-slick";
-import img1 from '../../assets/women/women-jewelry.jpg';
+import img1 from '../../assets/website/jewelry image.webp';
 import img2 from '../../assets/hero/2.jpg';
 import img3 from '../../assets/hero/3.jpg';
 import img4 from '../../assets/hero/4.jpg';

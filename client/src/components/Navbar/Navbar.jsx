@@ -58,7 +58,7 @@ const DropdownLinks = [
 
 const Navbar = ({ handleOrderPopup }) => {
   return (
-    <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
+    <div className="shadow-md bg-white  duration-200 relative z-40">
       {/* upper Navbar */}
       <div className="py-4">
         <div className="container flex justify-between items-center">
@@ -142,7 +142,7 @@ const Navbar = ({ handleOrderPopup }) => {
                   className="relative flex"
                 >
                   <FiHeart className="text-2xl  drop-shadow-sm cursor-pointer" />
-                  <span className="absolute text-center -top-2 -right-3 bg-[#8e3e63] rounded-full h-5 w-5 top right p-0 m-0 text-white font-mono text-sm  leading-tight">
+                  <span className="absolute text-center -top-2 -right-3 nav-strip rounded-full h-5 w-5 top right p-0 m-0 text-white font-mono text-sm  leading-tight">
                     0
                   </span>
                 </Link>
@@ -155,7 +155,7 @@ const Navbar = ({ handleOrderPopup }) => {
                   className="relative flex"
                 >
                   <FiShoppingCart className="text-2xl  drop-shadow-sm cursor-pointer" />
-                  <span className="absolute text-center -top-2 -right-3 bg-[#8e3e63] rounded-full h-5 w-5 top right p-0 m-0 text-white font-mono text-sm  leading-tight">
+                  <span className="absolute text-center -top-2 -right-3 nav-strip rounded-full h-5 w-5 top right p-0 m-0 text-white font-mono text-sm  leading-tight">
                     0
                   </span>
                 </Link>

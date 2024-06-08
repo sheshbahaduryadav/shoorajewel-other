@@ -8,6 +8,7 @@ import {
   FaLocationArrow,
   FaMobileAlt,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const BannerImg = {
   backgroundImage: `url(${Banner})`,
@@ -78,13 +79,13 @@ const Footer = () => {
                   href="/">Home</a></li>
                 <li className="mt-[15px]"><a
                   className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                  href="/our-tutors">News</a></li>
+                  href="/our-tutors">About</a></li>
                 <li className="mt-[15px]"><a
                   className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                  href="/become-a-tutor">Contact</a></li>
+                  href="/become-a-tutor">Shop</a></li>
                 <li className="mt-[15px]"><a
                   className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                  href="/plans-and-pricing">Plans and pricing</a></li>
+                  href="/plans-and-pricing">Category</a></li>
                 <li className="mt-[15px]"><a
                   className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
                   href="/terms-and-conditions">Terms and conditions</a></li>
@@ -105,7 +106,7 @@ const Footer = () => {
                 </svg>
               </div>
               <div className="ml-[18px]">
-                <a href="tel:+911800123444" className="font-Inter text-[14px] font-medium ">+91 1800123444</a>
+                <a href="tel:+911800123444" className="font-Inter text-[14px] font-medium ">+91 033 22581836 | +91 9331501850</a>
                 <p className="font-Inter text-[12px] font-medium ">Support Number</p>
               </div>
             </div>
@@ -118,8 +119,8 @@ const Footer = () => {
                 </svg>
               </div>
               <div className="ml-[18px]">
-                <a href="mailto:help@lorem.com" className="font-Inter text-[14px] font-medium text-[#fff]">help@lorem.com</a>
-                <p className="font-Inter text-[12px] font-medium text-[#fff]">Support Email</p>
+                <a href="mailto:rohitgold@hotmail.com" className="font-Inter text-[14px] font-medium">rohitgold@hotmail.com</a>
+                <p className="font-Inter text-[12px] font-medium">Support Email</p>
               </div>
             </div>
             <div className="mt-[23px] flex">
@@ -131,11 +132,12 @@ const Footer = () => {
                 </svg>
               </div>
               <div className="ml-[18px]">
-                <a href="mailto:help@lorem.com" className="font-Inter text-[14px] font-medium text-[#fff]">Sub Nerul, Mumbia,
+                <a href="mailto:help@lorem.com" className="font-Inter text-[14px] font-medium">Sub Nerul, Mumbia,
                   India, 123456</a>
                 <p className="font-Inter text-[12px] font-medium ">Address</p>
               </div>
             </div>
+
           </div>
 
         </div>
@@ -146,7 +148,7 @@ const Footer = () => {
         <p className="text-[10px] font-normal  md:text-[12px]">
           © Copyright
           {/* */}2024
-          {/* */}, All Rights Reserved by YOUR WEBSITES. PVT. LTD
+          {/* */}, All Rights Reserved by Rohit Jewel.<Link>priva</Link>
         </p>
       </div>
     </div >

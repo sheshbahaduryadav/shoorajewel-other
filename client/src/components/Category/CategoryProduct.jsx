@@ -102,7 +102,7 @@ const Testimonials = () => {
             {/* <p data-aos="fade-up" className="text-sm text-primary">
               What our customers are saying
             </p> */}
-            <div className="flex gap-4 justify-center items-center">
+            <div data-aos="fade-up" className="flex gap-4 justify-center items-center">
               <div className="h-3 w-3 background-rectangle rotate-45"></div>
               <div className="h-3 w-3 background-rectangle rotate-45"></div>
               <div className="h-3 w-3 bg-gray-300 rotate-45"></div>
@@ -125,7 +125,7 @@ const Testimonials = () => {
             {TestimonialData.map((data) => (
               <div data-aos="fade-up"
                 data-aos-delay={data.aosDelay} key={data.id} className="my-6 text-center">
-                <div className="flex background flex-col h-44 w-44 justify-center items-center rounded-full dark:bg-gray-800 relative" >
+                <div className="flex background flex-col h-44 w-44 justify-center items-center rounded-full relative" >
                   <div className=" bg-blue-300 h-[167px] w-[167px] rounded-full">
                     <img
                       src={data.img}
