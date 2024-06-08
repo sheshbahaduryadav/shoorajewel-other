@@ -76,7 +76,7 @@ p {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -100,6 +100,9 @@ body {
 }
 .text-color {
   color: #12486b;
+}
+.text-highlight {
+  color: #419197;
 }
 
 .nav-strip {

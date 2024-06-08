@@ -57,7 +57,7 @@ const FooterLinks1 = [
 const Footer = () => {
   return (
     <div className="mt-8 bg-violet-900 pt-9 footer text-white">
-      <div className="mx-auto w-full max-w-[1166px] px-4 xl:px-0">
+      <div className="mx-auto pb-8 w-full max-w-[1166px] px-4 xl:px-0">
         <div className="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
           <div className="md:w-[316px]">
             <p className="text-[18px] font-medium ">
@@ -141,10 +141,10 @@ const Footer = () => {
           </div>
 
         </div>
-        <hr className="mt-[30px] " />
+        {/* <hr className="mt-[30px] " /> */}
 
       </div>
-      <div className="flex items-center sub-footer justify-center pb-8 pt-[9px] md:py-8">
+      <div className="flex items-center sub-footer justify-center md:py-6">
         <p className="text-[10px] font-normal  md:text-[12px]">
           © Copyright
           {/* */}2024

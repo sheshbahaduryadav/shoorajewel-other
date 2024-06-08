@@ -24,7 +24,8 @@ const EssentialSummerCollection = () => {
             <div className="mt-24 pb-36">
                 <div className="lg:flex gap-3 lg:px-20 px-4">
                     <div className="relative">
-                        <img src={img1} alt="Your Image" className="w-4/5 h-[70vh]" />
+                        <img data-aos="zoom-in-right"
+                            data-aos-delay="600" src={img1} alt="Your Image" className="w-4/5 h-[70vh]" />
 
                         <div data-aos="fade-up"
                             data-aos-delay="0" className="absolute  flex justify-center items-center shadow-xl bg-white h-80 w-80 top-60 right-0 p-4">
@@ -46,7 +47,8 @@ const EssentialSummerCollection = () => {
                         </div>
                     </div>
                     <div className="relative">
-                        <img src={img1} alt="Your Image" className="w-4/5 h-[70vh]" />
+                        <img data-aos="zoom-in-left"
+                            data-aos-delay="600" src={img1} alt="Your Image" className="w-4/5 h-[70vh]" />
 
                         <div data-aos="fade-up"
                             data-aos-delay="200" className="absolute flex justify-center items-center shadow-xl bg-white h-80 w-80 top-60 right-0 p-4">

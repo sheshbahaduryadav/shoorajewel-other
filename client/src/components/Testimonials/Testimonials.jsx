@@ -74,12 +74,12 @@ const Testimonials = () => {
       <div className=" mb-10  py-36">
         <div className="">
           {/* header section */}
-          <div className="text-center mb-10 max-w-[600px] mx-auto">
-            <p data-aos="fade-up" className="text-sm text-primary">
+          <div className="text-center space-y-3 mb-10 max-w-[600px] mx-auto">
+            <p data-aos="fade-up" className="text-sm text-color">
               What our customers are saying
             </p>
             <h1 data-aos="fade-up" className="text-3xl font-bold">
-              Our Client TESTIMONIALS
+              Our Client <span className="text-color underline">TESTIMONIALS</span>
             </h1>
             <p data-aos="fade-up" className="text-xs text-gray-400">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
@@ -109,7 +109,7 @@ const Testimonials = () => {
                           <h1 className="text-xl font-bold text-color dark:text-light">
                             {data.name}
                           </h1>
-                          <p className="text-sm text-gray-500">{data.text}</p>
+                          <p className="text-md text-gray-500">{data.text}</p>
                         </div>
                       </div>
                       {/* <p className="text-black/20 text-9xl font-serif absolute top-0 right-0">

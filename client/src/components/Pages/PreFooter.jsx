@@ -6,7 +6,7 @@ import img16 from '../../assets/New folder/16.png'
 
 function PreFooter() {
     return (
-        <div>
+        <div className='flex justify-center pb-20'>
 
             <div className="grid grid-cols-1 gap-4 px-4 mt-8 sm:grid-cols-4 justify-center sm:px-8  p-10">
                 <div className="flex items-center justify-center overflow-hidden ">

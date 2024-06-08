@@ -106,8 +106,8 @@ const Testimonials = () => {
               <div className="h-3 w-3 background-rectangle rotate-45"></div>
               <div className="h-3 w-3 background-rectangle rotate-45"></div>
               <div className="h-3 w-3 bg-gray-300 rotate-45"></div>
-              <h1 data-aos="fade-up" className="text-3xl text-color font-bold">
-                Shop By Category
+              <h1 data-aos="fade-up" className="text-3xl text-highlight font-bold">
+                Shop By <span className="text-color underline">Category</span>
               </h1>
               <div className="h-3 w-3 bg-gray-300 rotate-45"></div>
               <div className="h-3 w-3 background-rectangle rotate-45"></div>

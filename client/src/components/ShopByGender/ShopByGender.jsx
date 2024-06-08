@@ -157,7 +157,8 @@ const ShopByGender = ({ handleOrderPopup }) => {
                 </div>
               </div>
             </div>
-            <div className="col-span-2 py-1 sm:col-span-1 md:col-span-2 flex flex-col">
+            <div data-aos="zoom-in-left"
+              data-aos-delay="600" className="col-span-2 py-1 sm:col-span-1 md:col-span-2 flex flex-col">
               <a href="" className="group relative flex flex-col overflow-hidden  px-4 pt-[100vh] flex-grow">
                 <img src={img1} alt="" className="absolute inset-0 h-[105vh] w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" />
                 <div className="absolute inset-0 bg-gradient-to-b "></div>

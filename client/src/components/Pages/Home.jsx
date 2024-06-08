@@ -15,6 +15,7 @@ import PreFooter from './PreFooter';
 import FeaturedProduct from '../FeaturedProduct/FeaturedProduct';
 import EssentialSummerCollection from '../EssentialSummerCollection/EssentialSummerCollection';
 import { GallerySection } from '../Gallery/GallerySection';
+import { Trending } from '../Trending/Trending';
 
 function Home() {
 
@@ -38,6 +39,7 @@ function Home() {
             {/* <MegaMenuWithPlacement /> */}
             <NewHero />
             <TopProducts handleOrderPopup={handleOrderPopup} />
+            <Trending />
             <NewArrival />
             <Banner />
             <MensCategory handleOrderPopup={handleOrderPopup} />
@@ -46,8 +48,8 @@ function Home() {
             <Testimonials />
             <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
             <GallerySection />
-            <PreFooter />
             <Subscribe />
+            <PreFooter />
 
         </div>
     )
