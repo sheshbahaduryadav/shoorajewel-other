@@ -85,7 +85,7 @@ const Navbar = ({ handleOrderPopup }) => {
             <div>
               <Link to="/" className="font-bold text-2xl sm:text-3xl flex ">
                 {/* <img src={Logo} alt="Logo" className="w-40" /> */}
-                <span className="text-primary text-4xl logo">Shoora Jewel</span>
+                <span className="text-color text-4xl logo">Shoora Jewel</span>
               </Link>
             </div>
             <div data-aos="zoom-in" className="flex justify-center ">
@@ -94,7 +94,7 @@ const Navbar = ({ handleOrderPopup }) => {
                   <li key={data.id}>
                     <a
                       href={data.link}
-                      className="inline-block px-4 hover:text-primary duration-200 "
+                      className="inline-block px-4 hover:text-color duration-200 "
                     >
                       {data.name}
                     </a>
@@ -102,7 +102,7 @@ const Navbar = ({ handleOrderPopup }) => {
                 ))}
                 {/* Simple Dropdown and Links */}
                 <li className="group relative cursor-pointer">
-                  <a href="#" className="flex hover:text-primary duration-200 items-center gap-[2px] py-2">
+                  <a href="#" className="flex hover:text-color duration-200 items-center gap-[2px] py-2">
                     Category
                     <span>
                       <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
@@ -116,7 +116,7 @@ const Navbar = ({ handleOrderPopup }) => {
                             <li key={data.id}>
                               <a
                                 href={data.link}
-                                className="inline-block w-full rounded-md p-2 hover:bg-primary/20 "
+                                className="inline-block w-full rounded-md p-2 sub-menu "
                               >
                                 {data.name}
                               </a>
@@ -133,7 +133,7 @@ const Navbar = ({ handleOrderPopup }) => {
                   </div>
                 </li>
                 <li className="group relative cursor-pointer">
-                  <a href="#" className="flex hover:text-primary duration-200 items-center gap-[2px] py-2">
+                  <a href="#" className="flex hover:text-color duration-200 items-center gap-[2px] py-2">
                     Trending Collection
                     <span>
                       <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
@@ -147,7 +147,7 @@ const Navbar = ({ handleOrderPopup }) => {
                             <li key={data.id}>
                               <a
                                 href={data.link}
-                                className="inline-block w-full rounded-md p-2  hover:bg-primary/20 "
+                                className="inline-block w-full rounded-md p-2  sub-menu "
                               >
                                 {data.name}
                               </a>
@@ -164,7 +164,7 @@ const Navbar = ({ handleOrderPopup }) => {
                   </div>
                 </li>
                 <li className="group relative cursor-pointer">
-                  <a href="#" className="flex hover:text-primary duration-200 items-center gap-[2px] py-2">
+                  <a href="#" className="flex hover:text-color duration-200 items-center gap-[2px] py-2">
                     Diamond
                     <span>
                       <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
@@ -178,7 +178,7 @@ const Navbar = ({ handleOrderPopup }) => {
                             <li key={data.id}>
                               <a
                                 href={data.link}
-                                className="inline-block w-full rounded-md p-2 hover:bg-primary/20 "
+                                className="inline-block w-full rounded-md p-2 sub-menu "
                               >
                                 {data.name}
                               </a>
@@ -195,7 +195,7 @@ const Navbar = ({ handleOrderPopup }) => {
                   </div>
                 </li>
                 <li className="group relative cursor-pointer">
-                  <a href="#" className="flex hover:text-primary duration-200 items-center gap-[2px] py-2">
+                  <a href="#" className="flex hover:text-color duration-200 items-center gap-[2px] py-2">
                     Collection
                     {/* <span>
                       <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
@@ -203,7 +203,7 @@ const Navbar = ({ handleOrderPopup }) => {
                   </a>
                 </li>
                 <li className="group relative cursor-pointer">
-                  <a href="#" className="flex hover:text-primary duration-200 items-center gap-[2px] py-2">
+                  <a href="#" className="flex hover:text-color duration-200 items-center gap-[2px] py-2">
                     Contact
                     {/* <span>
                       <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
@@ -224,7 +224,7 @@ const Navbar = ({ handleOrderPopup }) => {
                   placeholder="search"
                   className="w-[200px] sm:w-[200px]  transition-all duration-300 rounded-full border border-gray-300 px-2 py-1 focus:outline-none focus:border-1 focus:border-primary dark:border-gray-500 dark:bg-gray-800  "
                 />
-                <IoMdSearch className="text-gray-500 group-hover:text-primary absolute top-1/2 -translate-y-1/2 right-3" />
+                <IoMdSearch className="text-gray-500 group-hover:text-color absolute top-1/2 -translate-y-1/2 right-3" />
               </div> */}
               {/* order button */}
               <button

@@ -68,13 +68,12 @@ p {
 
 .cta {
   /* background-color: rgb(249, 115, 22); */
-  background-color: #419197;
+  background-color: #9ba4b5;
 }
 .cta:hover {
   /* background-color: rgb(249, 115, 22); */
   background-color: #12486b;
 }
-
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
@@ -84,35 +83,38 @@ body {
   /* background-color: rgba(255, 136, 0, 0.24); */
   background-image: linear-gradient(
     130deg,
-    #12486b 20%,
+    #212a3e 20%,
     rgb(255, 255, 255) 80%
   );
 }
 .banner-card {
   background: rgb(0, 0, 0, 0.4);
 }
+.sub-menu:hover {
+  background-color: #f3f2f2;
+}
 .background-rectangle {
-  background-color: #12486b;
+  background-color: #212a3e;
 }
 .testimonial {
   /* background-color: rgba(255, 136, 0, 0.24); */
   background: #f3f2f2;
 }
 .text-color {
-  color: #12486b;
+  color: #212a3e;
 }
 .text-highlight {
-  color: #419197;
+  color: #9ba4b5;
 }
 
 .nav-strip {
-  background-color: #12486b;
+  background-color: #212a3e;
 }
 .footer {
-  background-color: #419197;
+  background-color: #9ba4b5;
 }
 .sub-footer {
-  background-color: #12486b;
+  background-color: #212a3e;
 }
 
 .card-background {
