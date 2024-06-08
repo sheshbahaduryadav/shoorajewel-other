@@ -16,14 +16,16 @@ export const Trending = () => {
 
             </div>
             <div className='grid grid-cols-3 gap-8 px-8'>
-                <div className=''>
+                <div data-aos="fade-up"
+                    data-aos-delay="0" className=''>
                     <div className="h-60 overflow-hidden  rounded-xl">
                         <div className='trend1 overflow-hidden h-60 transition-all duration-1000 rounded-xl cursor-pointer hover:scale-110'></div>
                     </div>
                     <h4 className='text-center font-medium mt-2'>Traditional Necklaces</h4>
                 </div>
 
-                <div className=''>
+                <div data-aos="fade-up"
+                    data-aos-delay="200" className=''>
                     <div className="h-60 overflow-hidden  rounded-xl">
                         <div className='trend2 overflow-hidden h-60 transition-all duration-1000 rounded-xl cursor-pointer hover:scale-110'></div>
                     </div>
@@ -31,7 +33,8 @@ export const Trending = () => {
                 </div>
 
 
-                <div className=''>
+                <div data-aos="fade-up"
+                    data-aos-delay="400" className=''>
                     <div className="h-60 overflow-hidden  rounded-xl">
                         <div className='trend3 overflow-hidden h-60 transition-all duration-1000 rounded-xl cursor-pointer hover:scale-110'></div>
                     </div>
@@ -39,7 +42,8 @@ export const Trending = () => {
                 </div>
 
 
-                <div className=''>
+                <div data-aos="fade-up"
+                    data-aos-delay="600" className=''>
                     <div className="h-60 overflow-hidden  rounded-xl">
                         <div className='trend4 overflow-hidden h-60 transition-all duration-1000 rounded-xl cursor-pointer hover:scale-110'></div>
                     </div>
@@ -47,7 +51,8 @@ export const Trending = () => {
                 </div>
 
 
-                <div className=''>
+                <div data-aos="fade-up"
+                    data-aos-delay="800" className=''>
                     <div className="h-60 overflow-hidden  rounded-xl">
                         <div className='trend5 overflow-hidden h-60 transition-all duration-1000 rounded-xl cursor-pointer hover:scale-110'></div>
                     </div>
@@ -55,7 +60,8 @@ export const Trending = () => {
                 </div>
 
 
-                <div className=''>
+                <div data-aos="fade-up"
+                    data-aos-delay="1000" className=''>
                     <div className="h-60 overflow-hidden  rounded-xl">
                         <div className='trend6 overflow-hidden h-60 transition-all duration-1000 rounded-xl cursor-pointer hover:scale-110'></div>
                     </div>
