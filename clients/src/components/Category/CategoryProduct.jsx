@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import styled from "styled-components";
 import ring from "../../assets/category-img/ring.webp";
-import ring1 from "../../assets/category-img/ring2.webp";
+import pendant1 from "../../assets/category-img/pendant1.webp";
 import chain from "../../assets/category-img/WG20025-Y-1_480x.webp";
 import pendant from "../../assets/category-img/pendant.webp";
 import elle from "../../assets/category-img/Elle Ring.webp";
@@ -42,7 +42,7 @@ const TestimonialData = [
     id: 6,
     name: "Initial S Pendant",
     text: "Cushion Band For Him for mens",
-    img: pendant,
+    img: pendant1,
     aosDelay: "1200",
   },
   // {

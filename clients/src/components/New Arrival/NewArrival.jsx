@@ -51,7 +51,7 @@ const NewArrival = () => {
 
 
   return (
-    <div className="mt-20 mb-12 card-background py-10">
+    <div className="mt-20 mb-12 card-background py-20">
       <div className="container">
         {/* Header section */}
         <div className="text-center  text-color font-medium text-4xl pb-10">
@@ -74,13 +74,13 @@ const NewArrival = () => {
                 <img
                   src={data.img}
                   alt=""
-                  className="h-[220px] w-[300px] object-cover "
+                  className="h-[280px] w-[300px] object-cover "
                 />
                 <div className="absolute top-0 right-3 z-[999] cta rounded-full p-2 cursor-pointer"><FaRegHeart className="text-white" /></div>
 
-                <div className="px-2 p-2">
+                <div className="px-2 absolute text-white p-2 bottom-0 banner-card w-full">
                   <p className="font-semibold">{data.title}</p>
-                  <p className="text-sm text-gray-600">Color : {data.color}</p>
+                  {/* <p className="text-sm text-gray-600">Color : {data.color}</p> */}
                   <p className="">Price ₹ {data.price}</p>
 
                 </div>

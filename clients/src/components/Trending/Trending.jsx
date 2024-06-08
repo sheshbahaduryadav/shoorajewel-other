@@ -12,7 +12,7 @@ export const Trending = () => {
     return (
         <TrendWrapper className='py-16'>
             <div className="text-center  text-highlight font-medium text-3xl pb-10">
-                Trending <span className='text-color underline font-bold'>on Rohit Jewellers</span>
+                Trending <span className='text-color underline font-bold'>on Shoora Jewellers</span>
 
             </div>
             <div className='grid grid-cols-3 gap-8 px-8'>
