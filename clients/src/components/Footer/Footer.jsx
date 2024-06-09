@@ -65,7 +65,7 @@ const Footer = () => {
               <p className="text-[18px] font-medium ">
                 <h1 className=" font-extrabold">
                   {/* <img src={footerLogo} alt="" /> */}
-                  <span className="text-color text-4xl logo">Shoora Jewel</span>
+                  <span className="text-white text-4xl logo">Shoora Jewel</span>
                 </h1>
               </p>
               <p className="mt-[18px] text-[15px] font-normal /[80%]">Lorem ipsum dolor sit amet consectetur adipisicing
