@@ -88,7 +88,7 @@ const Navbar = ({ handleOrderPopup }) => {
                 <span className="text-color text-4xl logo">Shoora Jewel</span>
               </Link>
             </div>
-            <div data-aos="zoom-in" className="flex justify-center ">
+            <div className="flex justify-center ">
               <ul className="sm:flex hidden items-center gap-6 font-medium">
                 {Menu.map((data) => (
                   <li key={data.id}>
@@ -156,7 +156,6 @@ const Navbar = ({ handleOrderPopup }) => {
                         </div>
                         <div>
                           <img src={trending} className="w-40" alt="" />
-
                         </div>
                       </div>
                     </ul>
