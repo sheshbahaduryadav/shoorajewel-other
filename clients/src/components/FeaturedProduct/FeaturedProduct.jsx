@@ -112,8 +112,8 @@ const FeaturedProduct = () => {
                   className="h-[280px] hover:scale-110 duration-700 transition-all w-[300px] object-cover "
                 />
                 <div className="absolute top-0 right-3 z-[999] cta rounded-full p-2"><FaRegHeart className="text-white" /></div>
-                <div className="px-2 absolute pb-5 z-[99] text-white p-2 bottom-0 banner-card w-full">
-                  <p className="font-medium mt-2">{data.title.length > 25 ? <span>{data.title.slice(0, 25)}...</span> : <span>{data.title}</span>}</p>
+                <div className="px-2 rounded-b-lg py-3 absolute  text-white p-2 bottom-0 banner-card w-full">
+                  <p className="font-medium">{data.title.length > 25 ? <span>{data.title.slice(0, 25)}...</span> : <span>{data.title}</span>}</p>
                   {/* <p className="text-sm text-gray-600">Color : {data.color}</p> */}
                 </div>
               </div>

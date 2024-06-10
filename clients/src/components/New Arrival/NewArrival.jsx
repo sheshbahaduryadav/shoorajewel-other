@@ -78,7 +78,7 @@ const NewArrival = () => {
                 />
                 <div className="absolute top-0 right-3 z-[999] cta rounded-full p-2 cursor-pointer"><FaRegHeart className="text-white" /></div>
 
-                <div className="px-2 absolute text-white p-2 bottom-0 banner-card w-full">
+                <div className="px-2 rounded-b-lg absolute  text-white p-2 bottom-0 banner-card w-full">
                   <p className="font-semibold">{data.title}</p>
                   {/* <p className="text-sm text-gray-600">Color : {data.color}</p> */}
                   <p className="">Price ₹ {data.price}</p>

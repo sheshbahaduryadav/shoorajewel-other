@@ -68,11 +68,11 @@ p {
 
 .cta {
   /* background-color: rgb(249, 115, 22); */
-  background-color: #77b0aa;
+  background-color: #ff6ec7;
 }
 .cta:hover {
   /* background-color: rgb(249, 115, 22); */
-  background-color: #003c43;
+  background-color: #f542b0;
 }
 body {
   font-family: "Raleway", sans-serif;
@@ -83,12 +83,12 @@ body {
   /* background-color: rgba(255, 136, 0, 0.24); */
   background-image: linear-gradient(
     130deg,
-    #003c43 20%,
+    #b76e79 20%,
     rgb(255, 255, 255) 80%
   );
 }
 .banner-card {
-  background: rgb(0, 0, 0, 0.4);
+  background: rgba(231, 84, 160, 0.5);
 }
 .sub-menu:hover {
   background-color: #e3fef7;
@@ -101,20 +101,20 @@ body {
   background: #f3f2f2;
 }
 .text-color {
-  color: #003c43;
+  color: #2f4f4f;
 }
 .text-highlight {
-  color: #77b0aa;
+  color: #b76e79;
 }
 
 .nav-strip {
-  background-color: #003c43;
+  background-color: #b76e79;
 }
 .footer {
-  background-color: #135d66;
+  background-color: #b76e79;
 }
 .sub-footer {
-  background-color: #003c43;
+  background-color: #ac646f;
 }
 
 .card-background {
